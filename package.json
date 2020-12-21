@@ -1,0 +1,19 @@
+{
+  "name": "dbdc_bill_automation_api",
+  "version": "1.0.0",
+  "description": "Automation api for electric bill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Mir Sahib",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "puppeteer": "^5.5.0"
+  }
+}
